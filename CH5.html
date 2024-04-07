@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRAKTIKUM 7</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" alt="Logo" class="logo" />
+      <div class="header-content">
+        <h1>aespa</h1>
+      </div>
+    </header>
+    <center>
+      <ul>
+        <li>
+          <picture>
+            <h2 id="gambar">Gambar ae</h2>
+            <source media="(max-width: 500px)" srcset="ae2.jpg" />
+            <source media="(max-width: 1500px)" srcset="ae.jpg" />
+            <img src="ae2.jpg" alt="pic 1" style="width: 1000px" />
+            <hr />
+          </picture>
+        </li>
+        <li>
+          <h2 id="audio">Audio Better Things</h2>
+          <hr />
+          <audio controls>
+            <source src="Better Things audio.m4a" type="audio/mp3" />
+          </audio>
+        </li>
+        <li>
+          <h2 id="video">Video better things ae ver.</h2>
+          <hr />
+          <video
+            controls
+            width="1000"
+            height="500"
+            loop
+            autoplay
+            muted
+            preload="auto"
+          >
+            <source src="Better Things MV.mp4" type="video/mp4" />
+            <track
+              kind="captions"
+              src="Better Things MV.mp4"
+              srclang="en"
+              label="English"
+            />
+          </video>
+        </li>
+      </ul>
+    </center>
+    <script src="jsCH5.js"></script>
+  </body>
+</html>
